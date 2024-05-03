@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/main.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.sound.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.0.1/Tone.min.js" type="text/javascript"></script>
+      <script src="https://cdn.rawgit.com/v21/tracery/master/tracery.js"></script>
+      <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&family=Zen+Old+Mincho" rel="stylesheet">
+    
+  </head>
+  <body>
+    <!-- <h1>hello world</h1> -->
+    <script src="./js/main.js"></script>
+    <script src="./js/bgm.js"></script>
+    <div class="title"><h2 id="title">JOURNAL of Light-House Station at</h2> <p id="station">prob a Island`</p></div> 
+    <hr/>
+    <div class="date"><div id="date"><p id="year" class="tip">18XX</p><p id="month" class="tip">MONTH</p></div><p id="block" class="tip">DAY</p><p class="tip">RECORD OF IMPORTANT EVENTS AT THE STATION, BAD WEATHER, &c.</p></div>
+    <div id="journal"></div>
+    <div class="btn"><button id="btn" onclick="generate();randomYear();randomMonth()">New Page</button></div>
+  </body>
+</html>
